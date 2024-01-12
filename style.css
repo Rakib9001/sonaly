@@ -1,24 +1,33 @@
+/* .style1 ---------style1 */
 body {
     font-family: 'Open Sans', sans-serif;
 }
-.bodya{
+.style1{
     background-color: #f9f6f8;
 }
+
+/* .problem ----------problem */
 .problem{
-    color: #ff0202;
+    color: #fd0505;
     
 }
+
+/* nav -------nav */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin:0  20px;
 }
-.stylea {
-    color: var(--Dark-01, #e336d2);
-font-size: 80px;
+/* .style2------STYLE 2 */
+.style2{
+color: #aff904;
+text-shadow:6px 2px red;
+font-size: 70px;
 font-weight: 800;
 }
+
+/* NAV UL --+LI +---A  */
  nav ul{
     display: flex;
     align-items: center;
@@ -33,46 +42,39 @@ nav a{
     font-size: larger;
      
 }
-.buttona{
+
+/* STYLE 3------- */
+.style3{
     width:100px;
     height:30px;
     font-size: large;
         border-radius: 5px;
-        color: rgb(7, 7, 7);
+        color: rgb(247, 7, 27);
         background:rgb(212, 255, 0);
 }
-
-.header{
+/* ALL-STYLE ------ */
+.all-style{
     
-    background-color: rgb(19, 30, 59);
+    background-color: rgb(14, 24, 53);
     background-position: bottom right;
-    background-size: 100%;
+    background-size: 250px;
     padding: 0 10%;
     border-radius: 50px 5px;
-    
-}
- .bannera{
+    }
+    /* STYLE 4--------- */
+ .style4{
      display: flex;
      text-align: center;
      text-shadow: #2904fe;
      color: rgb(255, 0, 0);
  }
-  
- .profile{
-    width: 500px;
-     
- }
- .call{
-    border-radius: 5px;
-border: 2px solid #0b0c0b;
-width: 100px;
-height: 35px;
-flex-shrink: 0;
-color: rgb(236, 252, 6);
-background-color: rgb(85, 0, 255);
+ /* STYLE 5--------- */
+  .style5{
 
- }
- .buttonb{
+  }
+
+  /* STYLE 6-------- */
+ .style6{
     width: 150px;
     font-size: 25px;
 height: 45px;
@@ -82,20 +84,28 @@ background: rgb(244, 96, 197);
 color: rgb(248, 252, 7);
 margin-left: 20px;
  }
+
+ /* BUTTON STYLE ----- */
  p a{
     text-decoration: none;
     color: #c4fe04;
  }
- .banner-greading{
+
+
+ .style7{
     font-size: 45px;
     color: #fd0404;
     margin-bottom: 0px;
+    text-shadow:3px 1px #aff904;
+    text-align: left;
  }
- .banner-title{
-    font-size: 85px;
+ .style8{
+    text-align: left;
+    font-size: 70px;
 font-weight: 700;
 margin-top: 5px;
 margin-bottom: 20px;
+text-shadow: 4px 1px #aff904;
  }
  .banner-dis{
 
