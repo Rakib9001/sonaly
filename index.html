@@ -1,81 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sonaly webside</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <title>Modern Login Page | AsmrProg</title>
 </head>
-<body class="style1">
-    <header class="all-style">
 
-        <!-- problem------- -->
-        <p><h3><em class="problem">server problrm,please open chrome browser and silect desktop site</em></h3></p>
+<body>
 
-
-        <!-- nav  -----NAV -->
-        <nav>
-            <!-- STYLE 2--------STYLE2 -->
-            <h5 class="style2">WELL</h5>
-            <h5 class="style2a">COME</h5>
-
-
-            <!-- NAV UL +LI-li ------ -->
-            <ul>
-                <!-- <li><a href="">Profile</a></li> -->
-                <!-- <li><a href="">Blog</a></li> -->
-
-                <!-- STYLE 3  -->
-                <!-- <li><button class="style3"> Click me</button></li> -->
-            </ul>
-        </nav>
-
-           <!-- STYLE4------- -->
-        <div class="style4">
-            <div class="content">
-                <h3 class="style7">Hi, I  am</h3>
-                <h2 class="style8">SONALY QUEEN</h2>
-            
-            <!-- STYLE 5-----6 -->
-            <p class="style5">
-                <button class="style6"> <a href="sonaly.html">SONALY</a></button> 
-                <button class="style6a"><a href="profile.html">PROFILE</a></button> 
-                <button class="style6b"><a href="hobby.html">HOBBY</a></button> 
-                <button class="style6c"><a href="connect.html">CONNECT</a></button>  
-            </p>
-            </div>
-             
-    </header>
-
-    <main>
-        <section class="about">
-            <h3 class="section-title">About Me</h3>
-            <p class="section-dis">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional resulfs while working with me. Delivering work within time and budget which meets clients requirements in our meta.
-                
-            <div class="about-info-container">
-               
-                <div class="about-info">
-                    <h4 class="info-title">Name:</h4>
-                    <p class="info-description"></p>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Create Account</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
-                
-                <div class="about-info">
-                    <h4 class="info-title">Email:</h4>
-                    <p class="info-description"> </p>
+                <span>or use your email for registeration</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Sign In</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
-                <div class="about-info">
-                    <h4 class="info-title">Date of birth:</h4>
-                    <p class="info-description"> </p>
+                <span>or use your email password</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="#">Forget Your Password?</a>
+                <button><a href="hobby.html">Sign In</a></button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Back!</h1>
+                    <p>Enter your personal details to use all of site features</p>
+                    <button class="hidden" id="login">Sign In</button>
                 </div>
-                <div class="about-info">
-                    <h4 class="info-title">From:</h4>
-                    <p class="info-description">Dhaka,Gazipur,Bangladesh</p>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Register with your personal details to use all of site features</p>
+                    <button class="hidden" id="register">Sign Up</button>
                 </div>
             </div>
-        </section>
-    </main>
-    <footer>
-        
-    </footer>
+        </div>
+    </div>
+  
+    <script src="script.js"></script>
 </body>
+
 </html>
+
+ 
