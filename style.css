@@ -1,10 +1,18 @@
+/* style 0=========================== */
+.first{
+    font-weight: 200;
+     color: #56fc03
+    text-shadow:1px 1px rgb(236, 252, 6);
+    font-size: larger;
+    
+}
 /* style 1======================== */
 body {
     font-family: 'Open Sans', sans-serif;
 }
 /* style 2======================== */
 .bodya{
-    background-color: #2d252c;
+    background-color: #a796a4;
 }
 .problem{
     text-shadow:1px 1px #fc0320;
@@ -13,11 +21,11 @@ body {
 }
 .header{
     
-    background-color: rgb(37, 55, 33);
+    background-color: rgb(23, 23, 66);
     background-position: ;
     background-size: 100px;
     padding: 1px 1px;
-    border-radius: 50px 5px;
+    border-radius: 5px ;
     
 }
 .bannera{
